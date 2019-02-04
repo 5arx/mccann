@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanizerDemo", "Romanizer\RomanizerDemo.csproj", "{15150C4C-B847-470F-8976-6BF3E82DB2B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanizerLib", "RomanizerLib\RomanizerLib.csproj", "{E0AEC256-DCAF-432D-ABB9-109C603134C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanizerLib", "RomanizerLib\RomanizerLib.csproj", "{E0AEC256-DCAF-432D-ABB9-109C603134C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanizerTests", "RomanizerTests\RomanizerTests.csproj", "{34DF8BFD-DB8C-431A-BB74-5F444BD4C64A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E0AEC256-DCAF-432D-ABB9-109C603134C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0AEC256-DCAF-432D-ABB9-109C603134C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0AEC256-DCAF-432D-ABB9-109C603134C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DF8BFD-DB8C-431A-BB74-5F444BD4C64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DF8BFD-DB8C-431A-BB74-5F444BD4C64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DF8BFD-DB8C-431A-BB74-5F444BD4C64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DF8BFD-DB8C-431A-BB74-5F444BD4C64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,13 +9,13 @@ namespace RomanizerDemo
 {
     class Program
     {
-        private static readonly Romanizer _romanizer = new Romanizer();
+        private static readonly Romanizer Romanizer = new Romanizer();
 
         static void Main(string[] args)
         {
             for (int i=1; i< 4000; i++)
             {
-                Console.WriteLine($"{i} = {_romanizer.Translate(i)}");
+                Console.WriteLine($"{i} = {Romanizer.Translate(i)}");
             }
 
             
