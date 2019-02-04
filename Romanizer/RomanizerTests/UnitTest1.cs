@@ -20,7 +20,7 @@ namespace RomanizerTests
         {
             for (int i = 1; i < 4000; i++)
             {
-                Assert.AreEqual(RefData.FirstOrDefault(x => x.Key == i).Value, _romanizer.Romanize(i));
+                Assert.AreEqual(RefData.FirstOrDefault(x => x.Key == i).Value, _romanizer.Translate(i));
             }
         }
 
