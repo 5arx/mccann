@@ -12,9 +12,13 @@ namespace RomanizerLib
             switch (x.Key)
             {
                 case 1:
+                case 4:
                 case 5:
+                case 9:
                 case 10:
+                case 40:
                 case 50:
+                case 90:
                 case 100:
                 case 500:
                 case 1000:
