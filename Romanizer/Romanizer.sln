@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanizerLib", "RomanizerLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanizerTests", "RomanizerTests\RomanizerTests.csproj", "{34DF8BFD-DB8C-431A-BB74-5F444BD4C64A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{AFAA71B7-1806-4424-A461-F62173A90AF2}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+		..\..\..\..\..\Desktop\romannumerals.csv = ..\..\..\..\..\Desktop\romannumerals.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

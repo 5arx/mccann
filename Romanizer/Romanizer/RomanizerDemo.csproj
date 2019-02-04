@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\romannumerals.csv" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RomanizerLib\RomanizerLib.csproj">
