@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace RomanizerLib
 {
@@ -22,7 +23,7 @@ namespace RomanizerLib
                 default:
                 return false;
             }
-        });
+        }).OrderByDescending(x=> x.Key);
 
         public string Translate(int i)
         {
@@ -31,12 +32,26 @@ namespace RomanizerLib
                 return _dictionary.FirstOrDefault(x => x.Key == i).Value;
             }
 
-            return i.ToString();
+            else return CalculateRoman(i);
         }
 
         private string CalculateRoman(int i)
         {
-            return i.ToString();
+            var sb = new StringBuilder();
+            var tmp = i;
+
+            foreach (var x in _dictionary)
+            {
+                while (tmp - x.Key >= 0)
+                {
+                    //string.Format("{0} - {1} = {2}", tmp, x.Key, (tmp - x.Key)).Dump();
+                    tmp = tmp - x.Key;
+                    sb.Append(x.Value);
+
+                }
+            }
+
+            return sb.ToString();
         }
 
     }

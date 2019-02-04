@@ -9,7 +9,7 @@ namespace RomanizerLib
     {
         public static IEnumerable<KeyValuePair<int, string>> GetReferenceData()
         {
-            var path = @"C:\Users\indra\Desktop\romannumerals.csv";
+            var path = $@"{System.Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}/{"romannumerals.csv"}";
             var lines = File.ReadAllLines(path);
             var romans = new List<KeyValuePair<int, string>>(lines.Length);
 
